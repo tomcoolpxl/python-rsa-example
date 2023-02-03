@@ -45,3 +45,8 @@ Encrypted ciphertext: 662
 // Decrypt using m(c) = c^d mod n.
 Decrypted message: 1234
 ```
+# Thanks
+Many thanks to John Wagnon of F5 DevCentral, and his excellent explanation on How RSA Works.
+This source code is illustrative for his explanation.
+
+see https://www.youtube.com/watch?v=rVQpK6NcYIE
