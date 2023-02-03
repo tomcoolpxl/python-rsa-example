@@ -114,11 +114,15 @@ def decrypt(c, d, n):
     m = decrypt(c, d, n)
     return m
 
+p_example = 22
+q_example = 91
 
-print("RSA key generation, encryption and decryption")
+print("RSA key generation, encryption and decryption.")
+print(f"p={p_example} and q={q_example} are hardcoded in the example.")
+
 print("\nPrivate key:")
 print("============")
-private = PrivateKey(22,91)
+private = PrivateKey(p_example, q_example)
 private.print()
 print("\nPublic key:")
 print("===========")
