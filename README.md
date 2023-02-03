@@ -9,7 +9,8 @@ does not use libraries
 ## Output
 
 ```
-RSA key generation, encryption and decryption
+RSA key generation, encryption and decryption.
+p=22 and q=91 are hardcoded in the example.
 
 Private key:
 ============
